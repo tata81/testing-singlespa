@@ -13,8 +13,8 @@ module.exports = (webpackConfigEnv) => {
     // modify the webpack config however you'd like to by adding to this object
     devServer: {
       historyApiFallback: true,
-      sockHost: 'locahost',
-      sockPath: '9000',
+      sockHost: "locahost",
+      sockPath: "9000",
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -25,5 +25,16 @@ module.exports = (webpackConfigEnv) => {
         },
       }),
     ],
+    module: {
+      rules: [
+        {
+          test: /\.js|jsx$/,
+          exclude: /node_modules/,
+          use: {
+            loader: "babel-loader",
+          },
+        },
+      ],
+    },
   });
 };
