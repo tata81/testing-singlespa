@@ -12,7 +12,7 @@
     }
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-react": "7.10.4",
     "@babel/core": "7.10.4",
     "@babel/plugin-transform-runtime": "7.10.4",
     "@babel/preset-env": "7.10.4",
@@ -40,10 +40,10 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
-    "@rmwc/theme": "^6.1.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "@rmwc/theme": "6.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "single-spa": "5.5.4",
-    "single-spa-react": "^3.0.0"
+    "single-spa-react": "3.0.0"
   }
 }
