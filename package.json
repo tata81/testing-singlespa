@@ -40,7 +40,7 @@
     "webpack-merge": "5.0.9"
   },
   "dependencies": {
-    "@rmwc/theme": "6.1.2",
+    "@rmwc/theme": "6.1.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "single-spa": "5.5.5",
