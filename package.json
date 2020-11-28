@@ -44,6 +44,6 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "single-spa": "5.5.5",
-    "single-spa-react": "3.0.0"
+    "single-spa-react": "3.2.0"
   }
 }
