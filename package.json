@@ -37,7 +37,7 @@
     "webpack-cli": "3.3.12",
     "webpack-config-single-spa": "1.10.0",
     "webpack-dev-server": "3.11.0",
-    "webpack-merge": "5.0.9"
+    "webpack-merge": "5.8.0"
   },
   "dependencies": {
     "@rmwc/theme": "6.1.2",
